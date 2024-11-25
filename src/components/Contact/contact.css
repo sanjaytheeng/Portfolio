@@ -1,0 +1,105 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+.contact-title {
+    position: relative;
+}
+.contact-title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+.contact-title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.contact-section {
+    display: flex;
+    gap: 150px;
+}
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.contact-left h1{
+    font-size: 80px;
+    font-weight: 600;
+    background: linear-gradient( 267deg, #EA8D8D 0.56%, #A890FE 102.06%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.contact-left p{
+    max-width: 550px;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 35px;
+}
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+    font-size: 20px;
+}
+.contact-detail {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.contact-right{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+}
+.contact-right label{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+.contact-right input {
+    border: none;
+    width: 700px;
+    height: 78px;
+    padding-left: 20px;
+    border-radius: 4px;
+    background: #32323c;
+    color: white;
+    font-family: "League Spartan", sans-serif;    
+    font-size: 20px;
+}
+.contact-right textarea {
+    width: 670px;
+    border: none;
+    padding: 25px;
+    border-radius: 4px;
+    background: #32323c;
+    color: white;
+    font-family: "League Spartan", sans-serif;
+    font-size: 20px;
+}
+.contact-right button {
+    border: none;
+    color: white;
+    border-radius: 50px;
+    background: linear-gradient( 267deg, #EA8D8D 0.56%, #A890FE 102.06%);
+    font-size: 20px;
+    padding: 20px 60px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.contact-right button:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}

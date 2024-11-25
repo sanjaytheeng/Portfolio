@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 170px;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 60px;
+  font-size: 20px;
+}
+.nav-connect {
+  padding: 20px 40px;
+  border-radius: 50px;
+  background: linear-gradient(267deg, #ea8d8d 0.56%, #a890fe 102.06%);
+  font-size: 20px;
+  cursor: pointer;
+}
+.nav-connect:hover {
+  transform: scale(1.05);
+}
+.nav-menu li {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+.anchor-link {
+  text-decoration: none;
+  color: #fff;
+}

@@ -1,0 +1,15 @@
+.resume button{
+    display: flex;
+    padding: 25px 45px;
+    border-radius: 50px;
+    border: none;
+    background: linear-gradient(267deg, #ea8d8d 0.56%, #a890fe 102.06%);
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.resume button:hover {
+    border: 2px solid white;
+    transition: 0.3s;
+}
